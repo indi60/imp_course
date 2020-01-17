@@ -17,8 +17,10 @@
     <link rel="stylesheet" href="{{ asset('assets/select2/select2.min.css') }}" type="text/css" />
 
     <link rel="stylesheet" href="{{ asset('assets/ckeditor/skins/moono-lisa/editor.css') }}" type="text/css" />
-    {{-- <link rel="stylesheet" href="{{ asset('assets/ckeditor/contents.css') }}" type="text/css" /> --}}
-    {{-- <link href="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/css/select2.min.css" rel="stylesheet" /> --}}
+
+    <link rel="stylesheet" href="{{ asset('assets/css/icheck-bootstrap.css') }}" type="text/css"/>
+    {{-- <link rel="stylesheet" href="{{ asset('assets/css/checkbox.css') }}" type="text/css"/> --}}
+
     <!-- Hosting Demo Specific Stylesheet -->
     <link rel="stylesheet" href="{{ asset('assets/demos/course/course.css') }}" type="text/css" />
     <link rel="stylesheet" href="{{ asset('assets/demos/course/css/fonts.css') }}" type="text/css" />

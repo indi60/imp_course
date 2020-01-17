@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateRefJawabanSoalTable extends Migration
+class CreateRefKontenSoalTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,11 @@ class CreateRefJawabanSoalTable extends Migration
      */
     public function up()
     {
-        Schema::create('ref_jawaban_soal', function (Blueprint $table) {
+        Schema::create('ref_konten_soal', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->integer('soal_id');
-            $table->integer('konten_soal_id');
             $table->integer('no_soal');
-            $table->text('jawaban');
-            $table->text('jawaban_benar');
+            $table->text('konten_soal');
             $table->timestamps();
         });
     }
@@ -31,6 +29,6 @@ class CreateRefJawabanSoalTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('ref_jawaban_soal');
+        Schema::dropIfExists('ref_konten_soals');
     }
 }
