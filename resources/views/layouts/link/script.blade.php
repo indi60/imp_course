@@ -1,7 +1,7 @@
 <!-- External JavaScripts
 	============================================= -->
 	
-	<script src="{{ asset('assets/js/jquery.js') }}"></script>
+	{{-- <script src="{{ asset('assets/js/jquery.js') }}"></script> --}}
 
     <script src="{{ asset('assets/js/jquery.dataTables.js') }}"></script>
     <script src="{{ asset('assets/js/dataTables.bootstrap4.js') }}"></script>
@@ -14,6 +14,7 @@
     <script src="{{ asset('assets/sweetalert2/sweetalert2.min.js') }}"></script>
     <script src="{{ asset('assets/validator/validator.min.js') }}"></script>
     <script src="{{ asset('assets/select2/select2.min.js') }}"></script>
+    {{-- <script src="{{ asset('assets/mdb.js') }}"></script> --}}
 
 
     <!-- Footer Scripts
